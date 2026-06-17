@@ -1,7 +1,5 @@
-### Настройка сборки Maven (с исключением для MapStruct) ###
+### Настройка сборки Maven ###
 target/
-!target/generated-sources
-!target/generated-sources/annotations
 
 ### Документация и общие файлы ###
 HELP.md
