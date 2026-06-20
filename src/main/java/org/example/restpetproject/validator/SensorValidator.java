@@ -1,7 +1,7 @@
-package org.example.restpetproject.validators;
+package org.example.restpetproject.validator;
 
 import org.example.restpetproject.dto.SensorRegistrationRequest;
-import org.example.restpetproject.services.SensorService;
+import org.example.restpetproject.service.SensorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;

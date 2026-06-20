@@ -1,19 +1,18 @@
-package org.example.restpetproject.services;
+package org.example.restpetproject.service;
 
 import org.example.restpetproject.dto.MeasurementGetResponse;
 import org.example.restpetproject.dto.MeasurementSaveRequest;
-import org.example.restpetproject.mappers.MeasurementMapper;
-import org.example.restpetproject.models.Measurement;
-import org.example.restpetproject.models.Sensor;
-import org.example.restpetproject.repositories.MeasurementRepository;
-import org.example.restpetproject.repositories.SensorRepository;
-import org.example.restpetproject.util.exceptions.SensorNotFoundException;
+import org.example.restpetproject.mapper.MeasurementMapper;
+import org.example.restpetproject.model.Measurement;
+import org.example.restpetproject.model.Sensor;
+import org.example.restpetproject.repository.MeasurementRepository;
+import org.example.restpetproject.repository.SensorRepository;
+import org.example.restpetproject.exception.SensorNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service

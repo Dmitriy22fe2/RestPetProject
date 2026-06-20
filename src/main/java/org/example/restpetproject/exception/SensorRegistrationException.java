@@ -1,4 +1,4 @@
-package org.example.restpetproject.util.exceptions;
+package org.example.restpetproject.exception;
 
 public class SensorRegistrationException extends RuntimeException {
     public SensorRegistrationException(String message) {

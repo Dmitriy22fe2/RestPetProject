@@ -1,6 +1,6 @@
-package org.example.restpetproject.repositories;
+package org.example.restpetproject.repository;
 
-import org.example.restpetproject.models.Sensor;
+import org.example.restpetproject.model.Sensor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

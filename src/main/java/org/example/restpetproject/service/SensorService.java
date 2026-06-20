@@ -1,8 +1,8 @@
-package org.example.restpetproject.services;
+package org.example.restpetproject.service;
 
 import org.example.restpetproject.dto.SensorRegistrationRequest;
-import org.example.restpetproject.mappers.SensorMapper;
-import org.example.restpetproject.repositories.SensorRepository;
+import org.example.restpetproject.mapper.SensorMapper;
+import org.example.restpetproject.repository.SensorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

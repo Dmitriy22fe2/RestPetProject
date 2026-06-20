@@ -1,4 +1,4 @@
-package org.example.restpetproject.util.exceptions;
+package org.example.restpetproject.exception;
 
 public class SensorNotFoundException extends RuntimeException {
     public SensorNotFoundException(String message) {

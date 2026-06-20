@@ -1,11 +1,11 @@
-package org.example.restpetproject.controllers;
+package org.example.restpetproject.controller;
 
 import jakarta.validation.Valid;
 import org.example.restpetproject.dto.SensorRegistrationRequest;
-import org.example.restpetproject.services.SensorService;
+import org.example.restpetproject.service.SensorService;
 import org.example.restpetproject.util.ErrorsUtil;
-import org.example.restpetproject.util.exceptions.SensorRegistrationException;
-import org.example.restpetproject.validators.SensorValidator;
+import org.example.restpetproject.exception.SensorRegistrationException;
+import org.example.restpetproject.validator.SensorValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;

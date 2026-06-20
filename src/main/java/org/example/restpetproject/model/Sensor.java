@@ -1,4 +1,4 @@
-package org.example.restpetproject.models;
+package org.example.restpetproject.model;
 
 import jakarta.persistence.*;
 

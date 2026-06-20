@@ -1,8 +1,8 @@
-package org.example.restpetproject.mappers;
+package org.example.restpetproject.mapper;
 
 
 import org.example.restpetproject.dto.SensorRegistrationRequest;
-import org.example.restpetproject.models.Sensor;
+import org.example.restpetproject.model.Sensor;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

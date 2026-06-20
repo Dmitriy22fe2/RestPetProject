@@ -1,15 +1,13 @@
-package org.example.restpetproject.controllers;
+package org.example.restpetproject.controller;
 
 import jakarta.validation.Valid;
 import org.example.restpetproject.dto.MeasurementGetResponse;
 import org.example.restpetproject.dto.MeasurementSaveRequest;
-import org.example.restpetproject.models.Measurement;
-import org.example.restpetproject.services.MeasurementService;
+import org.example.restpetproject.service.MeasurementService;
 import org.example.restpetproject.util.ErrorsUtil;
-import org.example.restpetproject.util.exceptions.MeasurementSaveException;
-import org.example.restpetproject.util.exceptions.SensorNotFoundException;
-import org.example.restpetproject.validators.MeasurementValidator;
-import org.example.restpetproject.validators.SensorValidator;
+import org.example.restpetproject.exception.MeasurementSaveException;
+import org.example.restpetproject.exception.SensorNotFoundException;
+import org.example.restpetproject.validator.MeasurementValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;

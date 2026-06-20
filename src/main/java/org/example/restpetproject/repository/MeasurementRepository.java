@@ -1,6 +1,6 @@
-package org.example.restpetproject.repositories;
+package org.example.restpetproject.repository;
 
-import org.example.restpetproject.models.Measurement;
+import org.example.restpetproject.model.Measurement;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

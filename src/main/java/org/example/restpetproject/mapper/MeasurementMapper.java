@@ -1,8 +1,8 @@
-package org.example.restpetproject.mappers;
+package org.example.restpetproject.mapper;
 
 import org.example.restpetproject.dto.MeasurementGetResponse;
 import org.example.restpetproject.dto.MeasurementSaveRequest;
-import org.example.restpetproject.models.Measurement;
+import org.example.restpetproject.model.Measurement;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
